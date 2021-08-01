@@ -1,0 +1,60 @@
+#feedback-form { /* вся форма */
+    max-width: 550px;
+    padding: 2%;
+    border-radius: 3px;
+    background: #FFF;
+  }
+  #feedback-form label { /* наименование полей */
+    float: left;
+    display: block;
+    clear: right;
+  }
+  #feedback-form .w100 { /* поля */
+    float: right;
+    max-width: 370px;
+    width: 97%;
+    margin-bottom: 1em;
+    padding: 1.5%;
+  }
+  #feedback-form .border { /* граница полей */
+    border-radius: 1px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #FFC61A #FFC61A #FFC61A;
+    box-shadow: 0 1px 1px rgba(255,255,255,.5), 0 1px 1px rgba(0,0,0,.1) inset;
+  }
+  #feedback-form .border:focus {
+    outline: none;
+    border-color:#BB0401 #BB0401 #BB0401;
+  }
+  #feedback-form .border:hover {
+    border-color: #BB0401 #BB0401 #BB0401;
+  }
+  #feedback-form .border:focus::-moz-placeholder { /* убрать при фокусе первоначальный текст поля */
+    color: transparent;
+  }
+  #feedback-form .border:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+  #feedback-form .border:not(:focus):not(:hover):valid { /* правильно заполненные поля */
+    opacity: .8;
+  }
+  #submitFF { /* кнопка "Отправить" */
+    padding: 2%;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset;
+    background: black;
+    color: #fff;
+  }
+  #feedback-form br {
+    height: 0;
+    clear: both;
+  }
+  #submitFF:hover {
+    background: #FFC61A;
+    color: black;
+  }
+  #submitFF:focus {
+    box-shadow: 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05);
+  }

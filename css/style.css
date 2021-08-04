@@ -1742,6 +1742,19 @@ nav.navbar.affix {
 #tariffs h2 {
   margin-bottom: 30px !important;
 }
+.tariffs-ul {
+  padding: 0;
+  list-style: none;
+}
+.tariffs-ul li {
+  font-weight: bold;
+}
+.tariffs-p {
+  padding: 5px;
+  /* border: 3px solid #06cc2f; */
+  border-radius: 25px;
+  background-color: #f80707;
+}
 @media (max-width: 991px) {
   #tariffs {
     padding: 16px 0 50px;
@@ -3624,6 +3637,9 @@ select.error {
 .btn.btn-yellow {
   color: #1F1F1F;
   background: #06cc2f;
+  width: 180px;
+  padding: 15px;
+  text-transform: capitalize;
 }
 .btn.btn-yellow.btn-white {
   color: #fff;

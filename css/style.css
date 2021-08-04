@@ -3610,7 +3610,7 @@ select.error {
   padding: 2px 40px 4px;
   font-weight: 700;
   margin-bottom: 25px;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
 }
 .btn.btn-lg {
   text-transform: uppercase;
